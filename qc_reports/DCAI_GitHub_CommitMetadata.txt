@@ -1,1 +1,8 @@
-3028f29fdd4c14ebe96d38247b64b8a6d9a13ff8
+DCAI Nature Sustainability GitHub Commit Metadata
+Repository: https://github.com/seungjin-data/DCAI-Nature-Sustainability
+Branch: final-candidate
+Current repository state: FINAL_CANDIDATE
+Latest commit for this correction will be recorded by GitHub commit history and release tag.
+Release tag: PENDING GPT APPROVAL
+Archival DOI: PENDING publication-stage release
+Note: The definitive release commit is the commit to which the approved GitHub release tag points.
