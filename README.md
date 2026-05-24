@@ -1,7 +1,6 @@
 # Digital–Climate Alignment Gap reproducibility package
 
 This repository contains the reproducibility package for the DCAI Nature Sustainability manuscript.
-It is separate from the CEE submission repository and contains no CEE submission materials.
 
 ## Manuscript
 
@@ -99,4 +98,3 @@ Expected output: `ALL CHECKS PASSED`
 This repository is private during peer review.
 Upon acceptance or final publication-stage release, the repository will be made publicly available or archived with a persistent DOI.
 
-**Note:** This repository is separate from the CEE submission repository (`AI_Infrastructure_Governance`) and contains DCAI reproducibility materials only.
