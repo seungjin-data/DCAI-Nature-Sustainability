@@ -1,10 +1,44 @@
 DCAI Nature Sustainability — Reproducibility Verification Report
 =================================================================
-Generated: 2026-05-24T17:46:28.406091
+Generated : 2026-05-24T18:00:34.095677
 Repository: https://github.com/seungjin-data/DCAI-Nature-Sustainability
+Branch    : final-candidate
 
-[PASS] Locked numerical claims (verify_locked_numbers.py)
+Execution order:
+  1. Reproduce figures from source data
+  2. Verify reproduction outputs
+  3. Verify locked numerical claims
+  4. Verify source data integrity
+  5. Verify figure file metadata
+  6. Build manifest and checksums
 
+[PASS] Reproduce Figure 2 from source data
+PNG: 1995x1279 = 168.9x108.3mm @ 300dpi
+All files done
+
+[PASS] Reproduce Figure 3 from source data
+PNG: 130.6x117.4mm
+
+[PASS] Verify reproduction outputs
+Reproducing Figure 2...
+Reproducing Figure 3...
+
+============================================================
+REPRODUCTION VERIFICATION
+============================================================
+  [PASS] Figure1_exists: True
+  [INFO] Figure1_note: Conceptual framework — not data-generated
+  [PASS] Figure2_reproduced: True
+  [PASS] Figure2_output_exists: True
+  [INFO] Figure2_output: PNG: 1995x1279 = 168.9x108.3mm @ 300dpi
+  [INFO] Figure2_output: All files done
+  [PASS] Figure3_reproduced: True
+  [PASS] Figure3_output_exists: True
+  [INFO] Figure3_output: PNG: 130.6x117.4mm
+
+Result: 5 PASS, 0 FAIL, 4 INFO
+
+[PASS] Verify locked numerical claims
 ============================================================
 LOCKED NUMBERS VERIFICATION
 ============================================================
@@ -33,8 +67,7 @@ LOCKED NUMBERS VERIFICATION
 
 Result: 22/22 PASS, 0 FAIL
 
-[PASS] Source data files (verify_source_data.py)
-
+[PASS] Verify source data file integrity
 ============================================================
 SOURCE DATA VERIFICATION
 ============================================================
@@ -46,8 +79,7 @@ SOURCE DATA VERIFICATION
 
 Result: 5/5 PASS, 0 FAIL
 
-[PASS] Figure file metadata (verify_figures_metadata.py)
-
+[PASS] Verify figure file metadata
 ============================================================
 FIGURE METADATA VERIFICATION
 ============================================================
@@ -72,16 +104,14 @@ FIGURE METADATA VERIFICATION
 
 Result: 18/18 PASS, 0 FAIL
 
-[PASS] File manifest and checksums (build_manifest.py)
-
+[PASS] Build manifest and checksums
 ============================================================
 MANIFEST BUILD
 ============================================================
-  Files indexed: 40
+  Files indexed: 57
   Manifest:  qc_reports/DCAI_GitHub_Repository_Manifest.csv
   Checksums: qc_reports/DCAI_GitHub_CHECKSUMS_SHA256.txt
   File tree: qc_reports/DCAI_GitHub_FileTree.txt
-
 
 =================================================================
 ALL CHECKS PASSED

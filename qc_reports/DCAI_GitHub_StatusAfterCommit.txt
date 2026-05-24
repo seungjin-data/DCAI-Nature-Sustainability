@@ -1,0 +1,2 @@
+?? qc_reports/DCAI_GitHub_CommitMetadata.txt
+?? qc_reports/DCAI_GitHub_StatusAfterCommit.txt
