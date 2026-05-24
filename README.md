@@ -1,88 +1,100 @@
-# Digital–Climate Alignment Gap reproducibility package
+# Digital–Climate Alignment Gap
+## Reproducibility Package — Nature Sustainability
 
-This repository contains the reproducibility package for the DCAI Nature Sustainability manuscript.
+This repository contains the reproducibility package for the manuscript:
 
-## Manuscript
+**"The Digital–Climate Alignment Gap: Measuring the Misalignment Between National AI Governance and Climate–Energy Integration Across 75 Countries"**
 
-**Title:** The Digital–Climate Alignment Gap: National AI Governance and Climate–Energy Integration Across 75 Countries
+Submitted to *Nature Sustainability*.
 
-**Target journal:** Nature Sustainability
+---
 
-**Status:** FINAL_CANDIDATE — under peer review (private repository)
+## Research overview
 
-## Core measures
+This study introduces the **Digital–Climate Alignment Gap** — the difference between how rapidly countries are institutionalizing AI capacity and how comprehensively they are integrating AI considerations into their climate and energy governance frameworks.
 
-- **ACI** — AI Capacity Institutionalization
-- **CEIS** — Climate–Energy Integration Score
-- **Digital–Climate Alignment Gap** = ACI − CEIS
+The study does not model AI energy demand or carbon emissions. It measures **policy-document alignment** and **institutional visibility** between national AI strategies and climate–energy governance documents across 75 countries.
 
-> This study measures policy-document alignment and institutional visibility between national AI strategies and climate–energy documents. It does not model AI energy demand or emissions.
+### Core measures
 
-## Locked numerical claims
+| Measure | Definition |
+|---------|-----------|
+| **ACI** | AI Capacity Institutionalization — extent to which a country has established institutional frameworks for AI development |
+| **CEIS** | Climate–Energy Integration Score — extent to which AI considerations are integrated into climate and energy governance documents |
+| **Alignment Gap** | ACI − CEIS |
 
-### Confirmed-tier (n = 25)
-- 25/25 positive ACI−CEIS gaps
-- Mean gap = 58.3 percentage points
-- Median gap = 62.5 percentage points
-- Range = 16.7–91.7 percentage points
+### Key finding
 
-### Broader checkpoint
+Across all 71 plotted country rows, ACI exceeds CEIS — the alignment gap is **positive in 71/71 cases**. Among 25 confirmed-tier countries, the mean gap is **58.3 percentage points** (range: 16.7–91.7 pp), indicating that AI governance is systematically outpacing climate–energy governance integration worldwide.
+
+---
+
+## Confirmed-tier results (n = 25)
+
+| Statistic | Value |
+|-----------|-------|
+| Positive alignment gaps | 25/25 |
+| Mean gap | 58.3 pp |
+| Median gap | 62.5 pp |
+| Range | 16.7–91.7 pp |
+
+### Broader checkpoint (n = 75)
+
 - 75-country checkpoint
-- 71 plotted rows (4 data-pending not plotted: EGY, RWA, ROU, BGR)
-- 71/71 plotted rows positive ACI−CEIS gaps
+- 71 plotted rows (4 data-pending excluded: EGY, RWA, ROU, BGR)
+- 71/71 plotted rows show positive ACI−CEIS gaps
 
-### CEIS components (confirmed-tier n = 25)
-| Component | n | % | Note |
-|-----------|---|---|------|
-| CEI-1 | 1/25 | 4% | |
-| CEI-2 | 0/25 | 0% | |
-| CEI-4 | 0/25 | 0% | |
-| CEI-3 | 10/25 | 40% | Sensitivity excl. CHN/ARE = 34.8% |
-| CEI-5 | 11/25 | 44% | Sensitivity excl. CHN/ARE = 39.1% |
-| CEI-6 | 20/25 | 80% | |
+---
+
+## CEIS component prevalence (confirmed-tier, n = 25)
+
+Components are grouped by CEIS function, not numeric order.
+
+| Function | Component | Description | n | % |
+|----------|-----------|-------------|---|---|
+| Strategic alignment | CEI-1 | AI/digital in NDC or LT-LEDS | 1/25 | 4% |
+| Strategic alignment | CEI-2 | AI strategy: energy/climate targets | 0/25 | 0% |
+| Strategic alignment | CEI-4 | AI/data-centre carbon pricing | 0/25 | 0% |
+| Implementation | CEI-3 | Data-centre energy efficiency mandate | 10/25 | 40% |
+| Implementation | CEI-5 | AI–climate coordination | 11/25 | 44% |
+| Reporting visibility | CEI-6 | Mandatory carbon reporting | 20/25 | 80% |
+
+Sensitivity analysis excluding CHN and ARE (n = 23): CEI-3 = 34.8%, CEI-5 = 39.1%
+
+---
 
 ## Figures
 
-| Figure | Role |
-|--------|------|
-| Figure 1 | Conceptual framework and confirmed-tier Digital–Climate Alignment Gap |
-| Figure 2 | 75-country checkpoint → 71 plotted rows → 71/71 positive ACI−CEIS gaps |
-| Figure 3 | CEIS component diagnostic: sparse strategic alignment, partial implementation/coordination, common reporting visibility |
+| Figure | Content |
+|--------|---------|
+| **Figure 1** | Conceptual framework: ACI/CEIS measurement structure and confirmed-tier alignment gap |
+| **Figure 2** | 75-country checkpoint → 71 plotted rows → 71/71 positive ACI−CEIS gaps |
+| **Figure 3** | CEIS component diagnostic: sparse strategic alignment, partial implementation/coordination, common reporting visibility |
+
+---
 
 ## Repository structure
 
 ```
-DCAI_NatureSustainability/
-├── README.md
-├── CITATION.cff
-├── LICENSE
-├── requirements.txt
-├── environment.yml
+DCAI-Nature-Sustainability/
 ├── data/
-│   ├── source_data/          # SourceData_Fig2, Fig3, Table1, Table2
-│   └── supplementary_tables/ # Integrated supplementary tables
+│   ├── source_data/             # SourceData for Figures and Tables
+│   └── supplementary_tables/    # Integrated supplementary tables
 ├── figures/
-│   ├── Figure1/              # PDF, SVG, EPS, PNG, Legend, VR
-│   ├── Figure2/              # PDF, SVG, EPS, PNG, Legend, VR
-│   └── Figure3/              # PDF, SVG, EPS, PNG, Legend, VR
+│   ├── Figure1/                 # PDF, SVG, EPS, PNG, Legend, VerificationReport
+│   ├── Figure2/                 # PDF, SVG, EPS, PNG, Legend, VerificationReport
+│   └── Figure3/                 # PDF, SVG, EPS, PNG, Legend, VerificationReport
 ├── tables/
 │   ├── main_tables/
 │   └── supplementary_tables/
 ├── supplementary_information/
-├── code/                     # Verification and manifest scripts
-├── qc_reports/               # Generated QC outputs
-├── availability/             # Data and Code Availability statements
+├── code/                        # Reproducibility verification scripts
+├── qc_reports/                  # QC outputs, manifest, checksums
+├── availability/                # Data and Code Availability statements
 └── release_notes/
 ```
 
-The package supports verification of:
-- ACI, CEIS, and Digital–Climate Alignment Gap
-- Source data integrity
-- Main figures and figure metadata
-- Main tables and supplementary tables
-- Supplementary information
-- Locked numerical claims
-- File manifests and checksums
+---
 
 ## Reproducibility check
 
@@ -93,8 +105,12 @@ python code/run_all_checks.py
 
 Expected output: `ALL CHECKS PASSED`
 
-## Availability
+The script verifies locked numerical claims, source data integrity, figure file metadata, and generates the file manifest with SHA256 checksums.
 
-This repository is private during peer review.
-Upon acceptance or final publication-stage release, the repository will be made publicly available or archived with a persistent DOI.
+---
 
+## Data and code availability
+
+Source data supporting the figures and tables are provided in `data/source_data/`.
+Upon publication, this repository will be archived with a persistent DOI.
+The final release tag, commit hash, and archival DOI will be inserted before publication.
