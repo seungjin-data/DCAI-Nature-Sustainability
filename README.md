@@ -107,6 +107,8 @@ Expected output: `ALL CHECKS PASSED`
 
 The script verifies locked numerical claims, source data integrity, figure file metadata, and generates the file manifest with SHA256 checksums.
 
+> **Note:** No custom algorithm, statistical model-fitting code, or inferential analysis script was used to generate the study's substantive findings. The code in this repository consists of reproducibility and verification scripts only.
+
 ---
 
 ## Data and code availability
