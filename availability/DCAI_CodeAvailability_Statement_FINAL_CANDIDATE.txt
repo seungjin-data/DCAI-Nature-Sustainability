@@ -1,4 +1,4 @@
 DCAI Nature Sustainability — Code Availability Statement
 FINAL_CANDIDATE — not FINAL until GPT verification
 
-The code used to verify the DCAI locked numerical claims, source-data integrity, figure metadata, manifests and checksums is maintained in the private GitHub repository https://github.com/seungjin-data/DCAI_NatureSustainability during peer review. The repository contains the DCAI reproducibility package only and is separate from the CEE submission materials. Upon acceptance or final publication-stage release, the code will be made publicly available or archived with a persistent DOI. The final release tag, commit hash and archival DOI will be inserted before publication.
+The code used to verify the DCAI locked numerical claims, source-data integrity, figure metadata, manifests and checksums is publicly available at https://github.com/seungjin-data/DCAI-Nature-Sustainability. The repository contains the DCAI reproducibility package only. The final release tag, commit hash and archival DOI will be inserted before publication.
