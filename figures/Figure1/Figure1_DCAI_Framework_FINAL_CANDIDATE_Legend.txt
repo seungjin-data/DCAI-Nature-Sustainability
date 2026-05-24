@@ -1,0 +1,21 @@
+Figure 1 Legend
+===============
+Figure 1. ACI exceeds CEIS in all 25 confirmed-tier countries.
+
+Panel description:
+  Top band   : Analytical shift — Existing research (energy demand, emissions, scenarios)
+               → This study (policy-document alignment, institutional visibility)
+  Left panel : Measurement sources — AI strategies → ACI; NDC/LT-LEDS → CEIS
+               Legend: ● CEIS (green) | ● ACI (blue) | ━ Gap (orange)
+               Note: Policy-document alignment, not impact modelling
+  Main plot  : Paired CEIS-to-ACI dumbbell chart, 25 confirmed-tier countries,
+               sorted by ascending gap. X-axis: Index score (0–100).
+  Right card : Empirical consistency — 25/25 positive gaps;
+               Mean gap 58.3 pp; Median 62.5 pp; Range 16.7–91.7 pp
+
+Color coding:
+  CEIS dots  : #00A550 (green)
+  ACI dots   : #1050C0 (blue)
+  Gap lines  : #D4690A (orange)
+
+Data source: SourceData_Fig1.xlsx

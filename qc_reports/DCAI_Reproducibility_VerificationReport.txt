@@ -1,0 +1,87 @@
+DCAI Nature Sustainability — Reproducibility Verification Report
+=================================================================
+Generated: 2026-05-24T17:46:28.406091
+Repository: https://github.com/seungjin-data/DCAI-Nature-Sustainability
+
+[PASS] Locked numerical claims (verify_locked_numbers.py)
+
+============================================================
+LOCKED NUMBERS VERIFICATION
+============================================================
+  [PASS] confirmed_n: got=25, expected=25
+  [PASS] confirmed_positive_gaps: got=25, expected=25
+  [PASS] confirmed_mean_gap: got=58.3, expected=58.3
+  [PASS] confirmed_median_gap: got=62.5, expected=62.5
+  [PASS] confirmed_gap_min: got=16.7, expected=16.7
+  [PASS] confirmed_gap_max: got=91.7, expected=91.7
+  [PASS] plotted_rows: got=71, expected=71
+  [PASS] plotted_positive_gaps: got=71, expected=71
+  [PASS] CEI1_n: got=1, expected=1
+  [PASS] CEI1_pct: got=4.0, expected=4.0
+  [PASS] CEI2_n: got=0, expected=0
+  [PASS] CEI2_pct: got=0.0, expected=0.0
+  [PASS] CEI3_n: got=10, expected=10
+  [PASS] CEI3_pct: got=40.0, expected=40.0
+  [PASS] CEI4_n: got=0, expected=0
+  [PASS] CEI4_pct: got=0.0, expected=0.0
+  [PASS] CEI5_n: got=11, expected=11
+  [PASS] CEI5_pct: got=44.0, expected=44.0
+  [PASS] CEI6_n: got=20, expected=20
+  [PASS] CEI6_pct: got=80.0, expected=80.0
+  [PASS] CEI3_sensitivity: got=34.8, expected=34.8
+  [PASS] CEI5_sensitivity: got=39.1, expected=39.1
+
+Result: 22/22 PASS, 0 FAIL
+
+[PASS] Source data files (verify_source_data.py)
+
+============================================================
+SOURCE DATA VERIFICATION
+============================================================
+  [PASS] data/source_data/SourceData_Fig2.xlsx: EXISTS (10,147B)
+  [PASS] data/source_data/SourceData_Fig3.xlsx: EXISTS (6,239B)
+  [PASS] data/source_data/SourceData_Table1.xlsx: EXISTS (7,472B)
+  [PASS] data/source_data/SourceData_Table2.xlsx: EXISTS (6,952B)
+  [PASS] data/supplementary_tables/DCAI_NatSustain_SupplementaryTables_Integrated_FINAL.xlsx: EXISTS (31,068B)
+
+Result: 5/5 PASS, 0 FAIL
+
+[PASS] Figure file metadata (verify_figures_metadata.py)
+
+============================================================
+FIGURE METADATA VERIFICATION
+============================================================
+  [PASS] figures/Figure1/Figure1_DCAI_Framework_FINAL_CANDIDATE.pdf: 28,595B
+  [PASS] figures/Figure1/Figure1_DCAI_Framework_FINAL_CANDIDATE.svg: 221,762B
+  [PASS] figures/Figure1/Figure1_DCAI_Framework_FINAL_CANDIDATE.eps: 763,581B
+  [PASS] figures/Figure1/Figure1_DCAI_Framework_FINAL_CANDIDATE.png: 234,623B
+  [PASS] figures/Figure1/Figure1_DCAI_Framework_FINAL_CANDIDATE_Legend.txt: 944B
+  [PASS] figures/Figure1/Figure1_DCAI_Framework_FINAL_CANDIDATE_VerificationReport.txt: 1,748B
+  [PASS] figures/Figure2/Figure2_DCAI_GapDistribution_FINAL_CANDIDATE.pdf: 34,838B
+  [PASS] figures/Figure2/Figure2_DCAI_GapDistribution_FINAL_CANDIDATE.svg: 107,305B
+  [PASS] figures/Figure2/Figure2_DCAI_GapDistribution_FINAL_CANDIDATE.eps: 101,917B
+  [PASS] figures/Figure2/Figure2_DCAI_GapDistribution_FINAL_CANDIDATE.png: 184,367B
+  [PASS] figures/Figure2/Figure2_DCAI_GapDistribution_FINAL_CANDIDATE_Legend.txt: 921B
+  [PASS] figures/Figure2/Figure2_DCAI_GapDistribution_FINAL_CANDIDATE_VerificationReport.txt: 1,324B
+  [PASS] figures/Figure3/Figure3_DCAI_CEISComponents_FINAL_CANDIDATE.pdf: 34,410B
+  [PASS] figures/Figure3/Figure3_DCAI_CEISComponents_FINAL_CANDIDATE.svg: 116,000B
+  [PASS] figures/Figure3/Figure3_DCAI_CEISComponents_FINAL_CANDIDATE.eps: 106,875B
+  [PASS] figures/Figure3/Figure3_DCAI_CEISComponents_FINAL_CANDIDATE.png: 213,212B
+  [PASS] figures/Figure3/Figure3_DCAI_CEISComponents_FINAL_CANDIDATE_Legend.txt: 700B
+  [PASS] figures/Figure3/Figure3_DCAI_CEISComponents_FINAL_CANDIDATE_VerificationReport.txt: 1,761B
+
+Result: 18/18 PASS, 0 FAIL
+
+[PASS] File manifest and checksums (build_manifest.py)
+
+============================================================
+MANIFEST BUILD
+============================================================
+  Files indexed: 40
+  Manifest:  qc_reports/DCAI_GitHub_Repository_Manifest.csv
+  Checksums: qc_reports/DCAI_GitHub_CHECKSUMS_SHA256.txt
+  File tree: qc_reports/DCAI_GitHub_FileTree.txt
+
+
+=================================================================
+ALL CHECKS PASSED

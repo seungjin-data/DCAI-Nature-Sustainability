@@ -1,0 +1,24 @@
+Figure 2 Verification Report — CANDIDATE v5_4
+===============================================
+File   : Figure2_DCAI_GapDistribution_CANDIDATE_v5_4
+Date   : 2026-05-23
+Canvas : 168.9x108.3mm @ 300dpi
+Status : CANDIDATE — not FINAL
+
+[PASS]  no text overlap                     YES — transAxes + fig.transFigure legend
+[PASS]  no clipped text                     YES — left=0.24 for y-axis labels
+[PASS]  grey text print-readable            YES — min color #555
+[PASS]  title centered                      YES — fig.text x=0.605
+[PASS]  subtitle centered and readable      YES — 7pt #555
+[PASS]  Panel A/B left alignment matched    YES — same GridSpec left=0.24
+[PASS]  Panel A bar width = Panel B width   YES — bx=0, bw=1.0 transAxes
+[PASS]  4 data-pending visually distinct    YES — #D8D8D8 + hatch + #555555 border
+[PASS]  71 plotted rows shown               YES
+[PASS]  4 data-pending not plotted shown    YES
+[PASS]  71/71 positive gaps shown           YES — 9.5pt bold
+[PASS]  confirmed-tier mean = 58.3 pp       YES — direct label on figure
+[PASS]  legend no overlap with axis         YES — fig.transFigure y=0.040
+[PASS]  no prohibited wording              YES
+[PASS]  not FINAL                           YES
+
+END OF Figure 2 candidate v5_4 — final polish, not FINAL until GPT verification.

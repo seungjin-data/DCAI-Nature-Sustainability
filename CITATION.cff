@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package, please cite as below."
+title: "Digital–Climate Alignment Gap reproducibility package"
+type: software
+repository-code: "https://github.com/seungjin-data/DCAI_NatureSustainability"
+abstract: >
+  Reproducibility package for the DCAI Nature Sustainability manuscript.
+  Measures policy-document alignment between national AI strategies and
+  climate-energy governance documents across 75 countries.
+keywords:
+  - AI governance
+  - climate policy
+  - digital-climate alignment
+  - reproducibility
+license: MIT
+status: FINAL_CANDIDATE
+notes: "Repository is private during peer review. DOI to be assigned upon publication."

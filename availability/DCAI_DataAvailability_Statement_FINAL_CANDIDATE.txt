@@ -1,0 +1,4 @@
+DCAI Nature Sustainability — Data Availability Statement
+FINAL_CANDIDATE — not FINAL until GPT verification
+
+The source data supporting the figures and tables for the DCAI Nature Sustainability manuscript are provided in the Source Data files and Supplementary Tables associated with this submission. A reviewer-facing reproducibility package is maintained in the private GitHub repository https://github.com/seungjin-data/DCAI_NatureSustainability during peer review. This repository is separate from the CEE submission repository and contains the DCAI reproducibility materials only. Upon acceptance or final publication-stage release, the repository will be made publicly available or archived with a persistent DOI. The final public repository URL, release tag, commit hash and archival DOI will be inserted before publication.

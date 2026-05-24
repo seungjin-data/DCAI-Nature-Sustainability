@@ -1,0 +1,3 @@
+Figure 1 is a conceptual framework diagram (ACI/CEIS measurement structure and analytical shift).
+It does not have a tabular source data file.
+The figure was produced from the locked analytical framework; no numerical data table applies.

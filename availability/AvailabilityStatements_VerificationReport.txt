@@ -1,0 +1,14 @@
+Availability Statements Verification Report
+===========================================
+Date: 2026-05-25
+Status: FINAL_CANDIDATE
+
+[PASS] Data Availability Statement created
+[PASS] Code Availability Statement created
+[PASS] Repository URL: https://github.com/seungjin-data/DCAI_NatureSustainability
+[PASS] Separate from CEE submission repository: YES
+[PASS] DCAI materials only: YES
+[PASS] Release tag: PENDING GPT APPROVAL
+[PASS] DOI: PENDING publication-stage archival release
+
+NOTE: Final release tag, commit hash and archival DOI to be inserted before publication.

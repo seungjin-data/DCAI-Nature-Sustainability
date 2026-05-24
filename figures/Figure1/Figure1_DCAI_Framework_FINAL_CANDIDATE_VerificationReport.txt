@@ -1,0 +1,43 @@
+Figure 1 Verification Report
+=============================
+File    : Figure1_DCAI_Framework_CANDIDATE_v8_3
+Date    : 2026-05-21 17:15
+Version : v8_3 (visual layout accepted by PI)
+Status  : ALL CHECKS PASSED
+
+Technical Checks
+----------------
+  [PASS]  Width ≤ 180 mm                  180.0 mm
+  [PASS]  PNG ≥ 300 dpi                   300 dpi (fixed)
+  [PASS]  PDF vector-based                pdf.fonttype=42 (TrueType)
+  [PASS]  EPS vector-based                ps.fonttype=42 (TrueType)
+  [PASS]  SVG vector-based                SVG format
+  [PASS]  No Type 3 fonts                 Type 3 absent
+  [PASS]  Text not rasterized             fonttype=42 ensures text as paths
+  [PASS]  25 countries plotted            N=25
+  [PASS]  All ACI > CEIS                  25/25 positive gaps
+  [PASS]  25/25 positive gaps             25/25
+  [PASS]  Mean 58.3 pp                    Computed: 58.3 pp
+  [PASS]  Median 62.5 pp                  Computed: 62.5 pp
+  [PASS]  Range 16.7–91.7 pp              Computed: 16.7–91.7 pp
+  [PASS]  No prohibited wording           Checked: none found
+  [PASS]  Not marked FINAL                Label is CANDIDATE_v8_3
+
+Summary
+-------
+  Total checks : 15
+  Passed       : 15
+  Failed       : 0
+  PNG size     : 2125 × 1913 px
+  PDF size     : 180.0 × 162.0 mm
+  Font type    : TrueType (Type 42) — no Type 3
+
+Prohibited wording check
+------------------------
+  Checked: first ever | governance failure | better than Wilson |
+           Wilson missed | causal effect | all 75 countries | FINAL
+  Result : None found in figure text
+
+Note: This file is CANDIDATE status.
+      Phrase 'final analytical sample' is prohibited until audit complete.
+      Label must not be changed to FINAL without GPT verification.
