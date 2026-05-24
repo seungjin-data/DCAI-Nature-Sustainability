@@ -1,3 +1,7 @@
-Code Availability Statement
+CODE AVAILABILITY
 
-The code used to verify the locked numerical claims, source-data integrity, figure metadata, manifests and checksums reported in this manuscript is publicly available at https://github.com/seungjin-data/DCAI-Nature-Sustainability. The repository contains the DCAI reproducibility package only. The final release tag, commit hash and archival DOI will be inserted before publication.
+No custom algorithm or executable analysis script was used to generate the reported findings. The analysis is based on document-coded, source-data-based manual audit. Coding decisions were made according to the codebook and documented source-evidence audit trail provided in the Supplementary Information, Supplementary Tables and Supplementary Data/replication package.
+
+The replication package provided as Supplementary Data includes the locked analysis matrix, Source Data files, codebook documentation and QC verification records that allow manual verification of all reported values. Reproducibility verification scripts are publicly available at https://github.com/seungjin-data/DCAI-Nature-Sustainability. Upon acceptance, the same replication package will be archived through Zenodo or an equivalent DOI-issuing repository, and the persistent identifier will be added to this statement.
+
+[Zenodo DOI placeholder — to be added upon acceptance]

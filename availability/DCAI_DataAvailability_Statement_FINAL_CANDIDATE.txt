@@ -1,3 +1,9 @@
-Data Availability Statement
+DATA AVAILABILITY
 
-The source data supporting the figures and tables in this manuscript are provided as Source Data files accompanying this submission (SourceData_Fig2, SourceData_Fig3, SourceData_Table1, SourceData_Table2) and in the Supplementary Tables file. A public reproducibility package is available at https://github.com/seungjin-data/DCAI-Nature-Sustainability. The final release tag, commit hash and archival DOI will be inserted before publication.
+All source data supporting the figures and tables in this study are provided as Source Data files accompanying this article. The country-level analysis dataset, supplementary coding tables, source-document registry, codebook and audit-trail materials are provided in the Supplementary Information, Supplementary Tables and Supplementary Data/replication package accompanying this article.
+
+The replication package, which includes the locked analysis matrix, Source Data files, Supplementary Tables workbook, codebook documentation and QC records required to verify the reported tables and figures, is provided as Supplementary Data. The same replication package is also maintained as a public reproducibility repository at https://github.com/seungjin-data/DCAI-Nature-Sustainability. Upon acceptance, the replication package will additionally be archived through Zenodo or an equivalent DOI-issuing repository, and the persistent identifier will be added to this statement.
+
+Public policy documents analysed in this study are listed in Supplementary Table S4 with document titles, source links, evidence tiers and coding notes where applicable.
+
+[Zenodo DOI placeholder — to be added upon acceptance]
