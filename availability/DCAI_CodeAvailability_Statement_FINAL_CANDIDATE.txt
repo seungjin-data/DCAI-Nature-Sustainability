@@ -1,4 +1,3 @@
-DCAI Nature Sustainability — Code Availability Statement
-FINAL_CANDIDATE — not FINAL until GPT verification
+Code Availability Statement
 
-The code used to verify the DCAI locked numerical claims, source-data integrity, figure metadata, manifests and checksums is publicly available at https://github.com/seungjin-data/DCAI-Nature-Sustainability. The repository contains the DCAI reproducibility package only. The final release tag, commit hash and archival DOI will be inserted before publication.
+The code used to verify the locked numerical claims, source-data integrity, figure metadata, manifests and checksums reported in this manuscript is publicly available at https://github.com/seungjin-data/DCAI-Nature-Sustainability. The repository contains the DCAI reproducibility package only. The final release tag, commit hash and archival DOI will be inserted before publication.

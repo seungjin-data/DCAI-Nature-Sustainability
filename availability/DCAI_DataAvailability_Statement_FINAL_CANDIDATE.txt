@@ -1,4 +1,3 @@
-DCAI Nature Sustainability — Data Availability Statement
-FINAL_CANDIDATE — not FINAL until GPT verification
+Data Availability Statement
 
-The source data supporting the figures and tables for the DCAI Nature Sustainability manuscript are provided in the Source Data files and Supplementary Tables associated with this submission. A public reproducibility package is available at https://github.com/seungjin-data/DCAI-Nature-Sustainability. The final release tag, commit hash and archival DOI will be inserted before publication.
+The source data supporting the figures and tables in this manuscript are provided as Source Data files accompanying this submission (SourceData_Fig2, SourceData_Fig3, SourceData_Table1, SourceData_Table2) and in the Supplementary Tables file. A public reproducibility package is available at https://github.com/seungjin-data/DCAI-Nature-Sustainability. The final release tag, commit hash and archival DOI will be inserted before publication.
