@@ -1,4 +1,4 @@
-DCAI_NatureSustainability/
+DCAI_npjClimateAction/
 ├── CITATION.cff  (682B)
 ├── LICENSE  (1,069B)
 ├── README.md  (4,848B)
@@ -18,7 +18,7 @@ DCAI_NatureSustainability/
     ├── SourceData_Fig3.xlsx  (6,239B)
     ├── SourceData_Table1.xlsx  (7,472B)
     ├── SourceData_Table2.xlsx  (6,952B)
-    ├── DCAI_NatSustain_SupplementaryTables_Integrated_FINAL.xlsx  (31,068B)
+    ├── DCAI_npjClimateAction_SupplementaryTables_Integrated_FINAL.xlsx  (31,068B)
 ├── environment.yml  (142B)
     ├── Figure1_DCAI_Framework_FINAL_CANDIDATE.eps  (763,581B)
     ├── Figure1_DCAI_Framework_FINAL_CANDIDATE.pdf  (28,595B)
@@ -51,8 +51,8 @@ DCAI_NatureSustainability/
   ├── DCAI_GitHub_Repository_Manifest.csv  (10,699B)
   ├── DCAI_GitHub_StatusAfterCommit.txt  (93B)
   ├── DCAI_Reproducibility_VerificationReport.txt  (5,278B)
-  ├── DCAI_NatureSustainability_FINAL_CANDIDATE_ReleaseNotes.md  (2,162B)
+  ├── DCAI_npjClimateAction_FINAL_CANDIDATE_ReleaseNotes.md  (2,162B)
 ├── requirements.txt  (76B)
   ├── DCAI_SupplementaryInformation_FINAL.docx  (17,863B)
     ├── DCAI_MainTables_FINAL.docx  (13,509B)
-    ├── DCAI_NatSustain_SupplementaryTables_Integrated_FINAL.xlsx  (31,068B)
+    ├── DCAI_npjClimateAction_SupplementaryTables_Integrated_FINAL.xlsx  (31,068B)
