@@ -70,14 +70,14 @@ def run():
     # Write checksums
     cksum_path = QC / "DCAI_GitHub_CHECKSUMS_SHA256.txt"
     with open(cksum_path, "w") as f:
-        f.write(f"# DCAI Nature Sustainability — SHA256 Checksums\n")
+        f.write(f"# DCAI npj Climate Action — SHA256 Checksums\n")
         f.write(f"# Generated: {datetime.now().isoformat()}\n\n")
         f.write("\n".join(checksums))
 
     # Write file tree
     tree_path = QC / "DCAI_GitHub_FileTree.txt"
     with open(tree_path, "w") as f:
-        f.write("DCAI_NatureSustainability/\n")
+        f.write("DCAI_npjClimateAction/\n")
         for row in rows:
             depth = row["path"].count("/")
             indent = "  " * depth
