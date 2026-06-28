@@ -1,5 +1,5 @@
-DCAI Nature Sustainability GitHub Commit Metadata
-Repository: https://github.com/seungjin-data/DCAI-Nature-Sustainability
+DCAI npj Climate Action GitHub Commit Metadata
+Repository: https://github.com/seungjin-data/DCAI-npj-Climate-Action
 Branch: final-candidate
 Current repository state: FINAL_CANDIDATE
 Release tag: PENDING GPT APPROVAL
