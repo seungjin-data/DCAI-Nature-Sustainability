@@ -1,7 +1,7 @@
-DCAI Nature Sustainability — Reproducibility Verification Report
+DCAI npj Climate Action — Reproducibility Verification Report
 =================================================================
 Generated : 2026-05-24T18:26:48.577519
-Repository: https://github.com/seungjin-data/DCAI-Nature-Sustainability
+Repository: https://github.com/seungjin-data/DCAI-npj-Climate-Action
 Branch    : final-candidate
 
 Execution order:
@@ -75,7 +75,7 @@ SOURCE DATA VERIFICATION
   [PASS] data/source_data/SourceData_Fig3.xlsx: EXISTS (6,239B)
   [PASS] data/source_data/SourceData_Table1.xlsx: EXISTS (7,472B)
   [PASS] data/source_data/SourceData_Table2.xlsx: EXISTS (6,952B)
-  [PASS] data/supplementary_tables/DCAI_NatSustain_SupplementaryTables_Integrated_FINAL.xlsx: EXISTS (31,068B)
+  [PASS] data/supplementary_tables/DCAI_npjClimateAction_SupplementaryTables_Integrated_FINAL.xlsx: EXISTS (31,068B)
 
 Result: 5/5 PASS, 0 FAIL
 
