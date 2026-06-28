@@ -1,17 +1,22 @@
-# Digital–Climate Alignment Gap
-## Reproducibility Package — Nature Sustainability
+# Governing AI for Climate Action
+## Reproducibility Package — npj Climate Action
 
 This repository contains the reproducibility package for the manuscript:
 
-**"The Digital–Climate Alignment Gap: Measuring the Misalignment Between National AI Governance and Climate–Energy Integration Across 75 Countries"**
+**"Governing AI for Climate Action: Cross-National Evidence from Digital–Climate Policy Alignment Gaps"**
 
-Submitted to *Nature Sustainability*.
+Submitted to *npj Climate Action* (Springer Nature).
+Submission ID: baaefced-0bbb-4a9c-a9b3-2ae230158e7b
+
+Corresponding author: Seungjin Kim (d.eng.kim@stud.assist.ac.kr)
+Affiliation: Institute for Industrial Policy Studies (IPS), Seoul, Republic of Korea
+ORCID: https://orcid.org/0009-0007-6876-0777
 
 ---
 
 ## Research overview
 
-This study introduces the **Digital–Climate Alignment Gap** — the difference between how rapidly countries are institutionalizing AI capacity and how comprehensively they are integrating AI considerations into their climate and energy governance frameworks.
+This study introduces the **Digital–Climate Alignment Gap** — the difference between how rapidly countries are institutionalising AI capacity and how comprehensively they are integrating AI implications into their climate and energy governance frameworks.
 
 The study does not model AI energy demand or carbon emissions. It measures **policy-document alignment** and **institutional visibility** between national AI strategies and climate–energy governance documents across 75 countries.
 
@@ -19,13 +24,13 @@ The study does not model AI energy demand or carbon emissions. It measures **pol
 
 | Measure | Definition |
 |---------|-----------|
-| **ACI** | AI Capacity Institutionalization — extent to which a country has established institutional frameworks for AI development |
-| **CEIS** | Climate–Energy Integration Score — extent to which AI considerations are integrated into climate and energy governance documents |
-| **Alignment Gap** | ACI − CEIS |
+| **ACI** | AI Capacity Institutionalisation — extent to which a country has formally institutionalised AI as a strategic, industrial and infrastructure policy priority |
+| **CEIS** | Climate–Energy Integration Score — extent to which AI-related energy and climate implications are integrated into climate–energy governance documents |
+| **Alignment Gap** | ACI% − CEIS% (percentage points) |
 
 ### Key finding
 
-Across all 71 plotted country rows, ACI exceeds CEIS — the alignment gap is **positive in 71/71 cases**. Among 25 confirmed-tier countries, the mean gap is **58.3 percentage points** (range: 16.7–91.7 pp), indicating that AI governance is systematically outpacing climate–energy governance integration worldwide.
+Across all 71 plotted country rows, ACI exceeds CEIS — the alignment gap is **positive in 71/71 cases**. Among 25 confirmed-tier countries, the mean gap is **58.3 percentage points** (median: 62.5 pp; range: 16.7–91.7 pp), indicating that AI governance is systematically outpacing climate–energy governance integration.
 
 ---
 
@@ -38,81 +43,71 @@ Across all 71 plotted country rows, ACI exceeds CEIS — the alignment gap is **
 | Median gap | 62.5 pp |
 | Range | 16.7–91.7 pp |
 
-### Broader checkpoint (n = 75)
+### 75-country checkpoint
 
 - 75-country checkpoint
 - 71 plotted rows (4 data-pending excluded: EGY, RWA, ROU, BGR)
 - 71/71 plotted rows show positive ACI−CEIS gaps
+- Checkpoint-only rows (n=46) provide directional support; not used in principal analysis
 
 ---
 
 ## CEIS component prevalence (confirmed-tier, n = 25)
 
-Components are grouped by CEIS function, not numeric order.
+| Component | Description | Prevalence |
+|-----------|-------------|-----------|
+| CEI-1 | AI/digital evidence in NDCs or LT-LEDS | 4.0% (1/25) — BRA only |
+| CEI-2 | AI strategy links to energy/climate targets | 0.0% (0/25) |
+| CEI-3 | Data-centre/AI energy-efficiency mandate | 40.0% (10/25) |
+| CEI-4 | Carbon pricing on AI/data-centre operations | 0.0% (0/25) |
+| CEI-5 | Cross-ministerial AI–climate coordination | 44.0% (11/25) |
+| CEI-6 | Mandatory carbon reporting for AI/data centres | 80.0% (20/25) |
 
-| Function | Component | Description | n | % |
-|----------|-----------|-------------|---|---|
-| Strategic alignment | CEI-1 | AI/digital in NDC or LT-LEDS | 1/25 | 4% |
-| Strategic alignment | CEI-2 | AI strategy: energy/climate targets | 0/25 | 0% |
-| Strategic alignment | CEI-4 | AI/data-centre carbon pricing | 0/25 | 0% |
-| Implementation | CEI-3 | Data-centre energy efficiency mandate | 10/25 | 40% |
-| Implementation | CEI-5 | AI–climate coordination | 11/25 | 44% |
-| Reporting visibility | CEI-6 | Mandatory carbon reporting | 20/25 | 80% |
-
-Sensitivity analysis excluding CHN and ARE (n = 23): CEI-3 = 34.8%, CEI-5 = 39.1%
+*CEI-3 and CEI-5: sensitivity values excluding CHN/ARE = 34.8% and 39.1% respectively.*
 
 ---
 
-## Figures
-
-| Figure | Content |
-|--------|---------|
-| **Figure 1** | Conceptual framework: ACI/CEIS measurement structure and confirmed-tier alignment gap |
-| **Figure 2** | 75-country checkpoint → 71 plotted rows → 71/71 positive ACI−CEIS gaps |
-| **Figure 3** | CEIS component diagnostic: sparse strategic alignment, partial implementation/coordination, common reporting visibility |
-
----
-
-## Repository structure
+## Index formulas
 
 ```
-DCAI-Nature-Sustainability/
-├── data/
-│   ├── source_data/             # SourceData for Figures and Tables
-│   └── supplementary_tables/    # Integrated supplementary tables
-├── figures/
-│   ├── Figure1/                 # PDF, SVG, EPS, PNG, Legend, VerificationReport
-│   ├── Figure2/                 # PDF, SVG, EPS, PNG, Legend, VerificationReport
-│   └── Figure3/                 # PDF, SVG, EPS, PNG, Legend, VerificationReport
-├── tables/
-│   ├── main_tables/
-│   └── supplementary_tables/
-├── supplementary_information/
-├── code/                        # Reproducibility verification scripts
-├── qc_reports/                  # QC outputs, manifest, checksums
-├── availability/                # Data and Code Availability statements
-└── release_notes/
+ACI% = (ACI-1 + ACI-2 + ACI-3 + ACI-4) / 8 × 100
+CEIS% = (CEI-1 + CEI-2 + CEI-3 + CEI-4 + CEI-5 + CEI-6) / 12 × 100
+Gap (pp) = ACI% − CEIS%
 ```
+
+ACI-1 and ACI-2 are ordinal (0, 1, 2, 3); ACI-3 and ACI-4 are binary (0/1).
+CEI-3 is ordinal (0, 1, 2); all other CEIS components are binary (0/1).
 
 ---
 
-## Reproducibility check
+## Repository contents
 
-```bash
-pip install -r requirements.txt
-python code/run_all_checks.py
-```
-
-Expected output: `ALL CHECKS PASSED`
-
-The script verifies locked numerical claims, source data integrity, figure file metadata, and generates the file manifest with SHA256 checksums.
-
-> **Note:** No custom algorithm, statistical model-fitting code, or inferential analysis script was used to generate the study's substantive findings. The code in this repository consists of reproducibility and verification scripts only.
+| Directory/File | Contents |
+|---------------|---------|
+| `data/` | Confirmed-tier and checkpoint datasets |
+| `code/` | Reproducibility and verification scripts |
+| `figures/` | Figure source files |
+| `tables/` | Table source files |
+| `supplementary_information/` | Supplementary materials |
+| `availability/` | Data and code availability statements |
+| `qc_reports/` | Quality control reports |
+| `release_notes/` | Release and version notes |
 
 ---
 
-## Data and code availability
+## Submission history
 
-Source data supporting the figures and tables are provided in `data/source_data/`.
-Upon publication, this repository will be archived with a persistent DOI.
-The final release tag, commit hash, and archival DOI will be inserted before publication.
+| Journal | Status |
+|---------|--------|
+| *Nature Sustainability* (NATSUSTAIN-26054138) | Editorial decline without external review |
+| *npj Climate Action* (baaefced-0bbb-4a9c-a9b3-2ae230158e7b) | **Under review** |
+
+---
+
+## License
+
+See LICENSE file for terms of use.
+
+## Citation
+
+See CITATION.cff for citation information.
