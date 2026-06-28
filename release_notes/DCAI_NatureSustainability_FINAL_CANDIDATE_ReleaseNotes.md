@@ -1,8 +1,8 @@
-# DCAI Nature Sustainability — FINAL_CANDIDATE Release Notes
+# DCAI npj Climate Action — FINAL_CANDIDATE Release Notes
 
 **Status:** FINAL_CANDIDATE — not FINAL until GPT verification
 **Date:** 2026-05-25
-**Repository URL:** https://github.com/seungjin-data/DCAI-Nature-Sustainability
+**Repository URL:** https://github.com/seungjin-data/DCAI-npj-Climate-Action
 **Repository visibility:** Public
 **Branch:** final-candidate
 **Tag:** PENDING GPT APPROVAL
@@ -12,7 +12,7 @@
 
 ## Repository scope
 
-This repository is the DCAI Nature Sustainability reproducibility package only.
+This repository is the DCAI npj Climate Action reproducibility package only.
 It is **separate from** and contains **no materials from** the CEE submission repository (`AI_Infrastructure_Governance`).
 
 ---
@@ -31,7 +31,7 @@ It is **separate from** and contains **no materials from** the CEE submission re
 - SourceData_Table2.xlsx
 
 ### Supplementary tables included
-- DCAI_NatSustain_SupplementaryTables_Integrated_FINAL.xlsx
+- DCAI_npjClimateAction_SupplementaryTables_Integrated_FINAL.xlsx
 
 ### Main tables included
 - DCAI_MainTables_FINAL.docx
