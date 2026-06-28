@@ -1,6 +1,6 @@
 """
 verify_locked_numbers.py
-Verifies all locked numerical claims for the DCAI Nature Sustainability manuscript.
+Verifies all locked numerical claims for the DCAI npj Climate Action manuscript.
 """
 import pandas as pd
 import sys
