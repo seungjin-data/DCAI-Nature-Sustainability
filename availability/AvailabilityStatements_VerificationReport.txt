@@ -5,7 +5,7 @@ Status: FINAL_CANDIDATE
 
 [PASS] Data Availability Statement created
 [PASS] Code Availability Statement created
-[PASS] Repository URL: https://github.com/seungjin-data/DCAI-Nature-Sustainability
+[PASS] Repository URL: https://github.com/seungjin-data/DCAI-npj-Climate-Action
 [PASS] Separate from CEE submission repository: YES
 [PASS] DCAI materials only: YES
 [PASS] Release tag: PENDING GPT APPROVAL
