@@ -13,7 +13,7 @@ REQUIRED_FILES = {
     "data/source_data/SourceData_Fig3.xlsx": {"min_rows": 5},
     "data/source_data/SourceData_Table1.xlsx": {"min_rows": 1},
     "data/source_data/SourceData_Table2.xlsx": {"min_rows": 1},
-    "data/supplementary_tables/DCAI_NatSustain_SupplementaryTables_Integrated_FINAL.xlsx": {"min_rows": 1},
+    "data/supplementary_tables/DCAI_npjClimateAction_SupplementaryTables_Integrated_FINAL.xlsx": {"min_rows": 1},
 }
 
 def run():
