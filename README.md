@@ -95,15 +95,6 @@ CEI-3 is ordinal (0, 1, 2); all other CEIS components are binary (0/1).
 
 ---
 
-## Submission history
-
-| Journal | Status |
-|---------|--------|
-| *Nature Sustainability* (NATSUSTAIN-26054138) | Editorial decline without external review |
-| *npj Climate Action* (baaefced-0bbb-4a9c-a9b3-2ae230158e7b) | **Under review** |
-
----
-
 ## License
 
 See LICENSE file for terms of use.
