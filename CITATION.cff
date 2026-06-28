@@ -1,17 +1,33 @@
 cff-version: 1.2.0
 message: "If you use this reproducibility package, please cite as below."
-title: "Digital–Climate Alignment Gap reproducibility package"
+title: "Governing AI for Climate Action: Cross-National Evidence from Digital-Climate Policy Alignment Gaps"
 type: software
-repository-code: "https://github.com/seungjin-data/DCAI_NatureSustainability"
+repository-code: "https://github.com/seungjin-data/DCAI"
 abstract: >
-  Reproducibility package for the DCAI Nature Sustainability manuscript.
+  Reproducibility package for the manuscript "Governing AI for Climate Action:
+  Cross-National Evidence from Digital-Climate Policy Alignment Gaps",
+  submitted to npj Climate Action (Springer Nature).
   Measures policy-document alignment between national AI strategies and
-  climate-energy governance documents across 75 countries.
+  climate-energy governance documents across 75 countries using the
+  AI Capacity Institutionalisation (ACI) index and Climate-Energy
+  Integration Score (CEIS). Submission ID: baaefced-0bbb-4a9c-a9b3-2ae230158e7b.
+authors:
+  - family-names: "Kim"
+    given-names: "Seungjin"
+    orcid: "https://orcid.org/0009-0007-6876-0777"
+    affiliation: "Institute for Industrial Policy Studies (IPS), Seoul, Republic of Korea"
+    email: "d.eng.kim@stud.assist.ac.kr"
 keywords:
-  - AI governance
-  - climate policy
-  - digital-climate alignment
-  - reproducibility
+  - "artificial intelligence"
+  - "climate action"
+  - "climate policy"
+  - "energy governance"
+  - "policy integration"
+  - "digital-climate alignment"
+  - "national AI strategies"
+  - "NDC"
+  - "LT-LEDS"
 license: MIT
-status: FINAL_CANDIDATE
-notes: "Public reproducibility repository. DOI to be assigned upon publication."
+version: "npjClimateAction-SUBMISSION-v1"
+date-released: "2026-06-28"
+journal: "npj Climate Action"
