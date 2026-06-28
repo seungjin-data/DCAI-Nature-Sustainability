@@ -1,6 +1,6 @@
 """
 run_all_checks.py
-Master reproducibility runner for DCAI Nature Sustainability.
+Master reproducibility runner for DCAI npj Climate Action.
 Execution order: reproduce → verify → manifest
 
 Step 1: Reproduce figures from source data
@@ -29,10 +29,10 @@ SCRIPTS = [
 
 def run():
     report = [
-        "DCAI Nature Sustainability — Reproducibility Verification Report",
+        "DCAI npj Climate Action — Reproducibility Verification Report",
         "="*65,
         f"Generated : {datetime.now().isoformat()}",
-        f"Repository: https://github.com/seungjin-data/DCAI-Nature-Sustainability",
+        f"Repository: https://github.com/seungjin-data/DCAI-npj-Climate-Action",
         f"Branch    : final-candidate",
         "",
         "Execution order:",
